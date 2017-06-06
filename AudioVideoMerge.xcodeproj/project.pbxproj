@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4179564A1EE683A9002257A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 417956491EE683A9002257A6 /* main.m */; };
+		4179564D1EE683A9002257A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4179564C1EE683A9002257A6 /* AppDelegate.m */; };
+		417956501EE683A9002257A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4179564F1EE683A9002257A6 /* ViewController.m */; };
+		417956531EE683A9002257A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417956511EE683A9002257A6 /* Main.storyboard */; };
+		417956551EE683A9002257A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417956541EE683A9002257A6 /* Assets.xcassets */; };
+		417956581EE683A9002257A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417956561EE683A9002257A6 /* LaunchScreen.storyboard */; };
+		417956631EE683A9002257A6 /* AudioVideoMergeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 417956621EE683A9002257A6 /* AudioVideoMergeTests.m */; };
+		4179566E1EE683A9002257A6 /* AudioVideoMergeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4179566D1EE683A9002257A6 /* AudioVideoMergeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4179565F1EE683A9002257A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4179563D1EE683A9002257A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 417956441EE683A9002257A6;
+			remoteInfo = AudioVideoMerge;
+		};
+		4179566A1EE683A9002257A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4179563D1EE683A9002257A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 417956441EE683A9002257A6;
+			remoteInfo = AudioVideoMerge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		417956451EE683A9002257A6 /* AudioVideoMerge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioVideoMerge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		417956491EE683A9002257A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4179564B1EE683A9002257A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4179564C1EE683A9002257A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4179564E1EE683A9002257A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4179564F1EE683A9002257A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		417956521EE683A9002257A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		417956541EE683A9002257A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		417956571EE683A9002257A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		417956591EE683A9002257A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4179565E1EE683A9002257A6 /* AudioVideoMergeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioVideoMergeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		417956621EE683A9002257A6 /* AudioVideoMergeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioVideoMergeTests.m; sourceTree = "<group>"; };
+		417956641EE683A9002257A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417956691EE683A9002257A6 /* AudioVideoMergeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioVideoMergeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4179566D1EE683A9002257A6 /* AudioVideoMergeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioVideoMergeUITests.m; sourceTree = "<group>"; };
+		4179566F1EE683A9002257A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		417956421EE683A9002257A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4179565B1EE683A9002257A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417956661EE683A9002257A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4179563C1EE683A9002257A6 = {
+			isa = PBXGroup;
+			children = (
+				417956471EE683A9002257A6 /* AudioVideoMerge */,
+				417956611EE683A9002257A6 /* AudioVideoMergeTests */,
+				4179566C1EE683A9002257A6 /* AudioVideoMergeUITests */,
+				417956461EE683A9002257A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		417956461EE683A9002257A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				417956451EE683A9002257A6 /* AudioVideoMerge.app */,
+				4179565E1EE683A9002257A6 /* AudioVideoMergeTests.xctest */,
+				417956691EE683A9002257A6 /* AudioVideoMergeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		417956471EE683A9002257A6 /* AudioVideoMerge */ = {
+			isa = PBXGroup;
+			children = (
+				4179564B1EE683A9002257A6 /* AppDelegate.h */,
+				4179564C1EE683A9002257A6 /* AppDelegate.m */,
+				4179564E1EE683A9002257A6 /* ViewController.h */,
+				4179564F1EE683A9002257A6 /* ViewController.m */,
+				417956511EE683A9002257A6 /* Main.storyboard */,
+				417956541EE683A9002257A6 /* Assets.xcassets */,
+				417956561EE683A9002257A6 /* LaunchScreen.storyboard */,
+				417956591EE683A9002257A6 /* Info.plist */,
+				417956481EE683A9002257A6 /* Supporting Files */,
+			);
+			path = AudioVideoMerge;
+			sourceTree = "<group>";
+		};
+		417956481EE683A9002257A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				417956491EE683A9002257A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		417956611EE683A9002257A6 /* AudioVideoMergeTests */ = {
+			isa = PBXGroup;
+			children = (
+				417956621EE683A9002257A6 /* AudioVideoMergeTests.m */,
+				417956641EE683A9002257A6 /* Info.plist */,
+			);
+			path = AudioVideoMergeTests;
+			sourceTree = "<group>";
+		};
+		4179566C1EE683A9002257A6 /* AudioVideoMergeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4179566D1EE683A9002257A6 /* AudioVideoMergeUITests.m */,
+				4179566F1EE683A9002257A6 /* Info.plist */,
+			);
+			path = AudioVideoMergeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		417956441EE683A9002257A6 /* AudioVideoMerge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417956721EE683A9002257A6 /* Build configuration list for PBXNativeTarget "AudioVideoMerge" */;
+			buildPhases = (
+				417956411EE683A9002257A6 /* Sources */,
+				417956421EE683A9002257A6 /* Frameworks */,
+				417956431EE683A9002257A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioVideoMerge;
+			productName = AudioVideoMerge;
+			productReference = 417956451EE683A9002257A6 /* AudioVideoMerge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4179565D1EE683A9002257A6 /* AudioVideoMergeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417956751EE683A9002257A6 /* Build configuration list for PBXNativeTarget "AudioVideoMergeTests" */;
+			buildPhases = (
+				4179565A1EE683A9002257A6 /* Sources */,
+				4179565B1EE683A9002257A6 /* Frameworks */,
+				4179565C1EE683A9002257A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				417956601EE683A9002257A6 /* PBXTargetDependency */,
+			);
+			name = AudioVideoMergeTests;
+			productName = AudioVideoMergeTests;
+			productReference = 4179565E1EE683A9002257A6 /* AudioVideoMergeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		417956681EE683A9002257A6 /* AudioVideoMergeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417956781EE683A9002257A6 /* Build configuration list for PBXNativeTarget "AudioVideoMergeUITests" */;
+			buildPhases = (
+				417956651EE683A9002257A6 /* Sources */,
+				417956661EE683A9002257A6 /* Frameworks */,
+				417956671EE683A9002257A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4179566B1EE683A9002257A6 /* PBXTargetDependency */,
+			);
+			name = AudioVideoMergeUITests;
+			productName = AudioVideoMergeUITests;
+			productReference = 417956691EE683A9002257A6 /* AudioVideoMergeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4179563D1EE683A9002257A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Ravi;
+				TargetAttributes = {
+					417956441EE683A9002257A6 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 228777C638;
+						ProvisioningStyle = Automatic;
+					};
+					4179565D1EE683A9002257A6 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 228777C638;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 417956441EE683A9002257A6;
+					};
+					417956681EE683A9002257A6 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 228777C638;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 417956441EE683A9002257A6;
+					};
+				};
+			};
+			buildConfigurationList = 417956401EE683A9002257A6 /* Build configuration list for PBXProject "AudioVideoMerge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4179563C1EE683A9002257A6;
+			productRefGroup = 417956461EE683A9002257A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				417956441EE683A9002257A6 /* AudioVideoMerge */,
+				4179565D1EE683A9002257A6 /* AudioVideoMergeTests */,
+				417956681EE683A9002257A6 /* AudioVideoMergeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		417956431EE683A9002257A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417956581EE683A9002257A6 /* LaunchScreen.storyboard in Resources */,
+				417956551EE683A9002257A6 /* Assets.xcassets in Resources */,
+				417956531EE683A9002257A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4179565C1EE683A9002257A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417956671EE683A9002257A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		417956411EE683A9002257A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417956501EE683A9002257A6 /* ViewController.m in Sources */,
+				4179564D1EE683A9002257A6 /* AppDelegate.m in Sources */,
+				4179564A1EE683A9002257A6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4179565A1EE683A9002257A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417956631EE683A9002257A6 /* AudioVideoMergeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417956651EE683A9002257A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4179566E1EE683A9002257A6 /* AudioVideoMergeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		417956601EE683A9002257A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 417956441EE683A9002257A6 /* AudioVideoMerge */;
+			targetProxy = 4179565F1EE683A9002257A6 /* PBXContainerItemProxy */;
+		};
+		4179566B1EE683A9002257A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 417956441EE683A9002257A6 /* AudioVideoMerge */;
+			targetProxy = 4179566A1EE683A9002257A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		417956511EE683A9002257A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417956521EE683A9002257A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		417956561EE683A9002257A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417956571EE683A9002257A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		417956701EE683A9002257A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		417956711EE683A9002257A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		417956731EE683A9002257A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 228777C638;
+				INFOPLIST_FILE = AudioVideoMerge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteorangesoftware.AudioVideoMerge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		417956741EE683A9002257A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 228777C638;
+				INFOPLIST_FILE = AudioVideoMerge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteorangesoftware.AudioVideoMerge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		417956761EE683A9002257A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 228777C638;
+				INFOPLIST_FILE = AudioVideoMergeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteorangesoftware.AudioVideoMergeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioVideoMerge.app/AudioVideoMerge";
+			};
+			name = Debug;
+		};
+		417956771EE683A9002257A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 228777C638;
+				INFOPLIST_FILE = AudioVideoMergeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteorangesoftware.AudioVideoMergeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioVideoMerge.app/AudioVideoMerge";
+			};
+			name = Release;
+		};
+		417956791EE683A9002257A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 228777C638;
+				INFOPLIST_FILE = AudioVideoMergeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteorangesoftware.AudioVideoMergeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AudioVideoMerge;
+			};
+			name = Debug;
+		};
+		4179567A1EE683A9002257A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 228777C638;
+				INFOPLIST_FILE = AudioVideoMergeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whiteorangesoftware.AudioVideoMergeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AudioVideoMerge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		417956401EE683A9002257A6 /* Build configuration list for PBXProject "AudioVideoMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417956701EE683A9002257A6 /* Debug */,
+				417956711EE683A9002257A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417956721EE683A9002257A6 /* Build configuration list for PBXNativeTarget "AudioVideoMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417956731EE683A9002257A6 /* Debug */,
+				417956741EE683A9002257A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		417956751EE683A9002257A6 /* Build configuration list for PBXNativeTarget "AudioVideoMergeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417956761EE683A9002257A6 /* Debug */,
+				417956771EE683A9002257A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		417956781EE683A9002257A6 /* Build configuration list for PBXNativeTarget "AudioVideoMergeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417956791EE683A9002257A6 /* Debug */,
+				4179567A1EE683A9002257A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4179563D1EE683A9002257A6 /* Project object */;
+}
