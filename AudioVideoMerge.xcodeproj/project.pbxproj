@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		416E88921EE7B8F40074E077 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416E88911EE7B8F40074E077 /* MediaPlayer.framework */; };
+		416E88941EE7B8FE0074E077 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416E88931EE7B8FE0074E077 /* AVFoundation.framework */; };
+		416E88961EE7B9050074E077 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416E88951EE7B9050074E077 /* CoreGraphics.framework */; };
+		416E88981EE7B90D0074E077 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416E88971EE7B90D0074E077 /* UIKit.framework */; };
+		416E889A1EE7B9150074E077 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416E88991EE7B9150074E077 /* Foundation.framework */; };
+		416E88A51EE8202D0074E077 /* 01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 416E88A21EE8202D0074E077 /* 01.mp3 */; };
+		416E88A61EE8202D0074E077 /* 02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 416E88A31EE8202D0074E077 /* 02.mp3 */; };
+		416E88A71EE8202D0074E077 /* 03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 416E88A41EE8202D0074E077 /* 03.mp3 */; };
 		4179564A1EE683A9002257A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 417956491EE683A9002257A6 /* main.m */; };
 		4179564D1EE683A9002257A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4179564C1EE683A9002257A6 /* AppDelegate.m */; };
 		417956501EE683A9002257A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4179564F1EE683A9002257A6 /* ViewController.m */; };
@@ -15,6 +23,9 @@
 		417956581EE683A9002257A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417956561EE683A9002257A6 /* LaunchScreen.storyboard */; };
 		417956631EE683A9002257A6 /* AudioVideoMergeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 417956621EE683A9002257A6 /* AudioVideoMergeTests.m */; };
 		4179566E1EE683A9002257A6 /* AudioVideoMergeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4179566D1EE683A9002257A6 /* AudioVideoMergeUITests.m */; };
+		4179567D1EE6845E002257A6 /* AVMetadataRecordPlayCameraPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4179567C1EE6845E002257A6 /* AVMetadataRecordPlayCameraPreviewView.m */; };
+		417956821EE69408002257A6 /* MergeScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 417956811EE69408002257A6 /* MergeScreenVC.m */; };
+		417956851EE6AE0F002257A6 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417956841EE6AE0F002257A6 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		416E88911EE7B8F40074E077 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		416E88931EE7B8FE0074E077 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		416E88951EE7B9050074E077 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		416E88971EE7B90D0074E077 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		416E88991EE7B9150074E077 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		416E88A21EE8202D0074E077 /* 01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 01.mp3; sourceTree = "<group>"; };
+		416E88A31EE8202D0074E077 /* 02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 02.mp3; sourceTree = "<group>"; };
+		416E88A41EE8202D0074E077 /* 03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 03.mp3; sourceTree = "<group>"; };
 		417956451EE683A9002257A6 /* AudioVideoMerge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioVideoMerge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		417956491EE683A9002257A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4179564B1EE683A9002257A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +70,11 @@
 		417956691EE683A9002257A6 /* AudioVideoMergeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioVideoMergeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4179566D1EE683A9002257A6 /* AudioVideoMergeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioVideoMergeUITests.m; sourceTree = "<group>"; };
 		4179566F1EE683A9002257A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4179567B1EE6845E002257A6 /* AVMetadataRecordPlayCameraPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVMetadataRecordPlayCameraPreviewView.h; sourceTree = "<group>"; };
+		4179567C1EE6845E002257A6 /* AVMetadataRecordPlayCameraPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVMetadataRecordPlayCameraPreviewView.m; sourceTree = "<group>"; };
+		417956801EE69408002257A6 /* MergeScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeScreenVC.h; sourceTree = "<group>"; };
+		417956811EE69408002257A6 /* MergeScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeScreenVC.m; sourceTree = "<group>"; };
+		417956841EE6AE0F002257A6 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				416E889A1EE7B9150074E077 /* Foundation.framework in Frameworks */,
+				416E88981EE7B90D0074E077 /* UIKit.framework in Frameworks */,
+				416E88961EE7B9050074E077 /* CoreGraphics.framework in Frameworks */,
+				416E88941EE7B8FE0074E077 /* AVFoundation.framework in Frameworks */,
+				416E88921EE7B8F40074E077 /* MediaPlayer.framework in Frameworks */,
+				417956851EE6AE0F002257A6 /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +115,7 @@
 				417956611EE683A9002257A6 /* AudioVideoMergeTests */,
 				4179566C1EE683A9002257A6 /* AudioVideoMergeUITests */,
 				417956461EE683A9002257A6 /* Products */,
+				417956831EE6AE0F002257A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +134,16 @@
 			children = (
 				4179564B1EE683A9002257A6 /* AppDelegate.h */,
 				4179564C1EE683A9002257A6 /* AppDelegate.m */,
+				4179567B1EE6845E002257A6 /* AVMetadataRecordPlayCameraPreviewView.h */,
+				4179567C1EE6845E002257A6 /* AVMetadataRecordPlayCameraPreviewView.m */,
 				4179564E1EE683A9002257A6 /* ViewController.h */,
 				4179564F1EE683A9002257A6 /* ViewController.m */,
+				417956801EE69408002257A6 /* MergeScreenVC.h */,
+				417956811EE69408002257A6 /* MergeScreenVC.m */,
 				417956511EE683A9002257A6 /* Main.storyboard */,
+				416E88A21EE8202D0074E077 /* 01.mp3 */,
+				416E88A31EE8202D0074E077 /* 02.mp3 */,
+				416E88A41EE8202D0074E077 /* 03.mp3 */,
 				417956541EE683A9002257A6 /* Assets.xcassets */,
 				417956561EE683A9002257A6 /* LaunchScreen.storyboard */,
 				417956591EE683A9002257A6 /* Info.plist */,
@@ -138,6 +176,19 @@
 				4179566F1EE683A9002257A6 /* Info.plist */,
 			);
 			path = AudioVideoMergeUITests;
+			sourceTree = "<group>";
+		};
+		417956831EE6AE0F002257A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				416E88991EE7B9150074E077 /* Foundation.framework */,
+				416E88971EE7B90D0074E077 /* UIKit.framework */,
+				416E88951EE7B9050074E077 /* CoreGraphics.framework */,
+				416E88931EE7B8FE0074E077 /* AVFoundation.framework */,
+				416E88911EE7B8F40074E077 /* MediaPlayer.framework */,
+				417956841EE6AE0F002257A6 /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +300,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				416E88A61EE8202D0074E077 /* 02.mp3 in Resources */,
 				417956581EE683A9002257A6 /* LaunchScreen.storyboard in Resources */,
 				417956551EE683A9002257A6 /* Assets.xcassets in Resources */,
 				417956531EE683A9002257A6 /* Main.storyboard in Resources */,
+				416E88A51EE8202D0074E077 /* 01.mp3 in Resources */,
+				416E88A71EE8202D0074E077 /* 03.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +331,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				417956501EE683A9002257A6 /* ViewController.m in Sources */,
+				4179567D1EE6845E002257A6 /* AVMetadataRecordPlayCameraPreviewView.m in Sources */,
 				4179564D1EE683A9002257A6 /* AppDelegate.m in Sources */,
 				4179564A1EE683A9002257A6 /* main.m in Sources */,
+				417956821EE69408002257A6 /* MergeScreenVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +485,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 228777C638;
 				INFOPLIST_FILE = AudioVideoMerge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whiteorangesoftware.AudioVideoMerge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +498,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 228777C638;
 				INFOPLIST_FILE = AudioVideoMerge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whiteorangesoftware.AudioVideoMerge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +574,7 @@
 				417956741EE683A9002257A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		417956751EE683A9002257A6 /* Build configuration list for PBXNativeTarget "AudioVideoMergeTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +583,7 @@
 				417956771EE683A9002257A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		417956781EE683A9002257A6 /* Build configuration list for PBXNativeTarget "AudioVideoMergeUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +592,7 @@
 				4179567A1EE683A9002257A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
